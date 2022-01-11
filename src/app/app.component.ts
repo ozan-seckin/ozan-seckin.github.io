@@ -1,22 +1,11 @@
-<<<<<<< Updated upstream
-import { Component } from '@angular/core';
-=======
 import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
 
->>>>>>> Stashed changes
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-<<<<<<< Updated upstream
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  title = 'learnangular5';
-}
-=======
   styleUrls: ['./app.ozan.css'],
   encapsulation: ViewEncapsulation.None
 }
@@ -138,4 +127,3 @@ export interface Education {
   highlight: boolean;
   degreePath: string;
 };
->>>>>>> Stashed changes

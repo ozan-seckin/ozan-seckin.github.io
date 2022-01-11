@@ -16,12 +16,8 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
-<<<<<<< Updated upstream
-          "options": {
-=======
           "options": { 
             "allowedCommonJsDependencies": ["ng2-pdf-viewer"],
->>>>>>> Stashed changes
             "outputPath": "dist/learnangular5",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -29,14 +25,6 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-<<<<<<< Updated upstream
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
-=======
               "src/assets",
               {
                 "glob": "**/*",
@@ -53,7 +41,6 @@
               "node_modules/jquery/dist/jquery.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
             ]
->>>>>>> Stashed changes
           },
           "configurations": {
             "production": {
@@ -127,8 +114,4 @@
     }
   },
   "defaultProject": "learnangular5"
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
